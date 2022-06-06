@@ -1,3 +1,74 @@
 :root {
-    
+  --primary-color:#212121; /*основний колір*/
+  --accent-color:#2196F3; /*колір hover, focus, button*/
+  --text-color:#757575; /*колір тексту*/
+  --white-color:#FFFFFF;
+  
+}
+.logo {
+  color: var(--accent-color);
+}
+.nav-link li a {
+  color: var(--primary-color)
+}
+.nav-link li a:hover {
+  color: var(--accent-color);
+}
+.nav-link li a:focus {
+  color: var(--accent-color);
+}
+.auth-link a {
+  color: var(--text-color);
+}
+.auth-link a:hover {
+  color: var(--accent-color);
+}
+.auth-link a:focus {
+  color: var(--accent-color);
+}
+.primary h1 {
+  background-color: #2F303A;
+  color: var(--white-color);
+}
+.primary button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.preference-title {
+  color: var(--primary-color);
+}
+.preference-text {
+  color: var(--text-color);
+}
+.work-title {
+  color: var(--primary-color);
+}
+.team-title {
+  color: var(--primary-color);
+}
+.team-position {
+  color: var(--text-color);
+}
+.footer {
+  background-color:#2F303A;
+}
+.address {
+  color: var(--white-color);
+}
+.footer li a {
+  color: var(--white-color);
+}
+.option-btn {
+  background-color: #F5F4FA;
+  color: var(--primary-color);
+}
+.option-btn:hover {
+  background-color: var(--accent-color);
+}
+.option-btn:focus {
+  background-color: var(--accent-color);
+}
+li {
+    list-style-type: none;
+    /*Видалено маркери списку*/
 }
