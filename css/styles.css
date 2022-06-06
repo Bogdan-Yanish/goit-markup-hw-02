@@ -3,18 +3,26 @@
   --accent-color:#2196F3; /*колір hover, focus, button*/
   --text-color:#757575; /*колір тексту*/
   --white-color:#FFFFFF;
-  
+    }
+li {
+  list-style-type: none;
+/*Видалено маркери списку*/
+    }
+      
+/*header*/
+header {
+  background-color: var(--white-color);
 }
 .logo {
   color: var(--accent-color);
 }
-.nav-link li a {
+.nav-link a {
   color: var(--primary-color)
 }
-.nav-link li a:hover {
+.nav-link a:hover {
   color: var(--accent-color);
 }
-.nav-link li a:focus {
+.nav-link a:focus {
   color: var(--accent-color);
 }
 .auth-link a {
@@ -26,6 +34,19 @@
 .auth-link a:focus {
   color: var(--accent-color);
 }
+      
+/*footer*/
+.footer {
+  background-color:#2F303A;
+}
+
+.address {
+  color: var(--white-color);
+}
+
+
+      
+/*main Studio*/
 .primary h1 {
   background-color: #2F303A;
   color: var(--white-color);
@@ -43,21 +64,17 @@
 .work-title {
   color: var(--primary-color);
 }
+.team {
+  background-color: #F5F4FA;
+}
 .team-title {
   color: var(--primary-color);
 }
 .team-position {
   color: var(--text-color);
 }
-.footer {
-  background-color:#2F303A;
-}
-.address {
-  color: var(--white-color);
-}
-.footer li a {
-  color: var(--white-color);
-}
+
+/*main Portfolio*/
 .option-btn {
   background-color: #F5F4FA;
   color: var(--primary-color);
@@ -68,7 +85,9 @@
 .option-btn:focus {
   background-color: var(--accent-color);
 }
-li {
-    list-style-type: none;
-    /*Видалено маркери списку*/
+.portfolio-title {
+  color: var(--primary-color);
+}
+.portfolio-text {
+  color: var(--text-color);
 }
