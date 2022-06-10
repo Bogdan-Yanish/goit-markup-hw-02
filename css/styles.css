@@ -3,7 +3,6 @@
   --accent-color:#2196F3; /*колір hover, focus, button*/
   --title-text-color:#212121; /*колір заголовків*/
   --white-color:#FFFFFF;
-  --body-color:#e5e5e5;
   --baner-color:#2F303A;
   --button-color:#F5F4FA;
     }
@@ -13,13 +12,17 @@ li {
     }
  
     body {
-      background-color: var(--body-color);
       color: var(--primary-text-color);
 
       font-family: 'Roboto', sans-serif;
     }
    
     /*Logo*/
+
+    .header {
+      background-color: var(--white-color);
+    }
+    
     .logo {
       color: var(--accent-color);
 
@@ -28,7 +31,9 @@ li {
       font-size: 26px;
       line-height: 1.19;           
       letter-spacing: 0.03em;
-    }
+
+      text-decoration: none;
+      }
     
     .logo-header {
       color: var(--title-text-color);
@@ -45,7 +50,9 @@ li {
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
-      letter-spacing: 0.02em
+      letter-spacing: 0.02em;
+
+      text-decoration: none;
     }
 
     .site-nav .link:hover {
@@ -56,13 +63,19 @@ li {
       color: var(--accent-color);
     }
 
+    .site-nav .link.current {
+      color: var(--accent-color);
+   }
+
     .auth-link .contact {
       color: var(--primary-text-color);
 
       font-weight: 500;
       font-size: 14px;
-      line-height: 1.4;
-      letter-spacing: 0.02em
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+
+      text-decoration: none;    
     }
 
     .auth-link .contact:hover {
@@ -85,6 +98,7 @@ li {
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
+      
     }
 
     /*Main Studio*/
@@ -100,18 +114,25 @@ li {
       font-size: 44px;
       line-height: 1.36;             
       text-align: center;
+      letter-spacing: 0.06em;
+
+      text-transform: uppercase;     
     }
 
     .hero-btn {
       background-color: var(--accent-color);
       color: var(--white-color);
 
-      font-family: 'roboto';
+      font-family: inherit;
       font-weight: 700;
       font-size: 16px;
       line-height: 1.88;
+      letter-spacing: 0.06em;
 
-      cursor: pointer;
+      cursor: pointer;   
+      
+      display: flex;
+      align-items: center;       
     }
     
     /*Benefits*/
@@ -122,13 +143,14 @@ li {
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.03em;
-      text-transform: uppercase;
+
+      text-transform: uppercase;      
     }
 
     .benefits-text {
       font-size: 14px;
       line-height: 1.71;      
-      letter-spacing: 0.03em;
+      letter-spacing: 0.03em;      
     }
 
     /*Works*/
@@ -139,10 +161,15 @@ li {
       font-size: 36px;
       line-height: 1.17;
       text-align: center;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.03em;    
     }
 
     /*Team*/
+
+    .team {
+      background-color: var(--button-color);
+    }
+
     .team-title {
       color: var(--title-text-color);
 
@@ -151,6 +178,7 @@ li {
       line-height: 1.17;
       text-align: center;
       letter-spacing: 0.03em;
+      
     }
 
     .team-name {
@@ -159,14 +187,17 @@ li {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.19;             
-      letter-spacing: 0.03em;
+      letter-spacing: 0.03em;            
+        
     }
 
     .team-position {
       font-size: 16px;
-      line-height: 1.19px;     
+      line-height: 1.19;     
       letter-spacing: 0.03em;
+     
     }
+
 
     /*Portfolio*/
 
@@ -174,26 +205,31 @@ li {
       background-color: var(--button-color);
       color: var(--title-text-color);
       
-      font-family: roboto;
+      font-family: inherit;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.62;          
-      text-align: center;
       letter-spacing: 0.03em;
 
-      cursor: pointer;
+      cursor: pointer;     
     }
+
     .option-btn:hover {
       background-color: var(--accent-color);
       color: var(--white-color);
     }
+
+    .portfolio-link {
+      text-decoration: none;
+    }
+
     .portfolio-title {
       color: var(--title-text-color);
 
       font-weight: 700;
       font-size: 18px;
       line-height: 2;          
-      letter-spacing: 0.06em;
+      letter-spacing: 0.06em;      
     }
     
     .portfolio-text {     
@@ -201,7 +237,7 @@ li {
 
       font-size: 16px;
       line-height: 1.88;     
-      letter-spacing: 0.03em;
+      letter-spacing: 0.03em;      
     }
 
     
