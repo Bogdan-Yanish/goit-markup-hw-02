@@ -22,7 +22,7 @@ li {
     .header {
       background-color: var(--white-color);
     }
-    
+
     .logo {
       color: var(--accent-color);
 
@@ -129,10 +129,7 @@ li {
       line-height: 1.88;
       letter-spacing: 0.06em;
 
-      cursor: pointer;   
-      
-      display: flex;
-      align-items: center;       
+      cursor: pointer;              
     }
     
     /*Benefits*/
