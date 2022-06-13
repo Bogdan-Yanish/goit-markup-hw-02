@@ -7,7 +7,7 @@
   --button-color:#F5F4FA;
     }
 li {
-  list-style-type: none;
+      list-style-type: none;
 /*Видалено маркери списку*/
     }
  
@@ -97,8 +97,7 @@ li {
       font-style: normal;
       font-size: 14px;
       line-height: 1.71;
-      letter-spacing: 0.03em;
-      
+      letter-spacing: 0.03em;      
     }
 
     /*Main Studio*/
@@ -174,8 +173,7 @@ li {
       font-size: 36px;
       line-height: 1.17;
       text-align: center;
-      letter-spacing: 0.03em;
-      
+      letter-spacing: 0.03em;      
     }
 
     .team-name {
@@ -184,15 +182,14 @@ li {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.19;             
-      letter-spacing: 0.03em;            
-        
+      letter-spacing: 0.03em;      
+       
     }
 
     .team-position {
       font-size: 16px;
       line-height: 1.19;     
-      letter-spacing: 0.03em;
-     
+      letter-spacing: 0.03em;     
     }
 
 
@@ -216,6 +213,11 @@ li {
       color: var(--white-color);
     }
 
+    .active {
+      background-color: var(--accent-color);
+      color: var(--white-color);
+    }
+
     .portfolio-link {
       text-decoration: none;
     }
@@ -230,7 +232,7 @@ li {
     }
     
     .portfolio-text {     
-    color: var(--primary-text-color);
+      color: var(--primary-text-color);
 
       font-size: 16px;
       line-height: 1.88;     
