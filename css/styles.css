@@ -213,11 +213,6 @@ li {
       color: var(--white-color);
     }
 
-    .active {
-      background-color: var(--accent-color);
-      color: var(--white-color);
-    }
-
     .portfolio-link {
       text-decoration: none;
     }
